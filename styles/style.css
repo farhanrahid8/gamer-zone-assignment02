@@ -3,7 +3,8 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
 
@@ -164,7 +165,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.video-paragraph{
+
+.video-paragraph {
     color: #534C64;
     text-align: center;
     font-size: 18px;
@@ -173,12 +175,74 @@ body {
 
 }
 
-.video-game{
+.video-game {
     display: flex;
-    gap: 10px;
+    gap: 25px;
     justify-content: center;
 }
 
-.video-game:hover{
+.video-game:hover {
     cursor: pointer;
+}
+
+/* play instant section starts from here  */
+
+.play-instant-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.img-section{
+    width: 50%;
+}
+.play-instant-img{
+    width: 50%;
+}
+.play-instant-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 0;
+    padding-right: 120px;
+   
+
+
+}
+
+.play-instant-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant-paragraph {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 125px;
+
+}
+
+
+/* .img-1{
+    position: relative;
+    left: 100px;
+}
+
+.img-2{
+    position: relative;
+    left: -650px;
+    bottom: -100px;
+} */
+
+.img-1{
+    margin-left: 90px;
+}
+.img-2{
+    position: relative;
+    bottom: 240px;
 }
