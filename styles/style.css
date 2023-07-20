@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common css */
+
+
+/* nav section starts from here */
+.nav-container {
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    /* padding: 38px; */
+    align-items: center;
+
+
+}
+
+.logo-container img{
+    width: 100px;
+    margin-right: 20px; 
+    padding: 50px 20px;
+}
+
+
+.logo-container p{
+    color: black;
+    font-weight: 700;
+    font-size: 45px ;
+   
+}
+.gamer-section{
+    color:#F948B2 ;
+}
+
+
+.nav-item-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-item-container a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-item-container .youtube-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+}
